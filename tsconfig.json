@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "target": "ESNext", // Modern JavaScript features
+    "module": "CommonJS", // Use CommonJS for module system
+    "moduleResolution": "node", // Ensure Node.js-style resolution
+    "esModuleInterop": true, // For interoperability between CommonJS and ES Modules
+    "skipLibCheck": true, // Skip checking of declaration files
+    "strict": true, // Enable strict type-checking
+    "resolveJsonModule": true // Allow JSON imports
+  },
+  "include": ["src/**/*.ts"] // Include all TypeScript files under src
+}
